@@ -1,0 +1,33 @@
+
+
+<div id="bg" class="container">
+    
+
+    
+
+    <div class="main">
+        
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8"><h1>Welcome To National Bank</h1></div>
+            <div class="col-2"></div>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Username</label>
+            <input (change)="onUsernameChange($event)" type="text" class="form-control" id="uname" aria-describedby="emailHelp">
+           <label for="" id="ulabel"></label>     
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input (change)="onPasswordChange($event)" type="password" class="form-control" id="pwd">
+        </div>
+       
+        <button type="button" class="btn btn-primary" (click)="login()">Login</button>
+
+
+
+
+    </div>
+
+</div>
